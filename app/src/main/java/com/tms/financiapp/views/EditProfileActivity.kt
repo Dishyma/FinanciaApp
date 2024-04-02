@@ -64,6 +64,8 @@ class EditProfileActivity : AppCompatActivity() {
                             idNumber = documentNumber
                         )
                     )
+
+                    helper.regresarAlMainActivity(this)
                 }
             }
         }

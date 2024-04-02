@@ -29,7 +29,6 @@ class AccountActivity : AppCompatActivity() {
             insets
         }
         createAccount()
-
     }
 
     private fun createAccount(){
@@ -55,6 +54,7 @@ class AccountActivity : AppCompatActivity() {
                 openDateAccount = helper.getCurrentDateString()
             )
             accountController.addBankAccount(userId, bankAccount)
+            helper.regresarAlMainActivity(this)
         }
     }
 }

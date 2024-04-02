@@ -17,19 +17,19 @@
             android:id="@+id/button_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button One" />
+            android:text="Ingreso" />
 
         <Button
             android:id="@+id/button_two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button Two" />
+            android:text="Gasto" />
 
         <Button
             android:id="@+id/button_three"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button Three" />
+            android:text="Transferencia" />
 
         <FrameLayout
             android:id="@+id/content_container"

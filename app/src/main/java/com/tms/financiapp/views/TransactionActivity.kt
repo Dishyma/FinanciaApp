@@ -88,6 +88,7 @@ class TransactionActivity : AppCompatActivity() {
                             toAccount = ""
                         )
                         transactionController.addTransaction(transaction)
+                        helper.regresarAlMainActivity(this)
                     }
                 }
                 if (index == 1) {
@@ -113,11 +114,13 @@ class TransactionActivity : AppCompatActivity() {
                             toAccount = ""
                         )
                         transactionController.addTransaction(transaction)
+                        helper.regresarAlMainActivity(this)
                     }
                 }
                 if (index == 2) {
                     updateSpinnersTransfer(accountNumbers, allAccountNumbers)
                     currentTransactionType = TransactionType.TRANSFER
+                    helper.regresarAlMainActivity(this)
                 }
             }
         }
