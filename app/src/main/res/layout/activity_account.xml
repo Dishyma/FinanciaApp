@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:id="@+id/linearLayout3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accountType"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteHeight="24dp"
+        tools:layout_editor_absoluteY="376dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_conversion_absoluteWidth="126dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAccountType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteHeight="24dp"
+        tools:layout_editor_absoluteY="385dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_conversion_absoluteWidth="118dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monto_inicial"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_editor_absoluteY="395dp"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_conversion_absoluteWidth="117dp" />
+
+    <EditText
+        android:id="@+id/balanceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/monto"
+        android:inputType="number"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_editor_absoluteY="374dp"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_conversion_absoluteWidth="0dp" />
+
+    <Button
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendCreateAccount"
+        tools:layout_conversion_absoluteHeight="107dp"
+        tools:layout_editor_absoluteY="367dp"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_conversion_absoluteWidth="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
